@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
                 val translationDistance = (initialTextViewTranslationY + progress * resources.getDimension(R.dimen.text_anim_step) * -1)
                 textView_progress.animate().translationY(translationDistance)
                 if(!fromUser)
-                    textView_progress.animate().setDuration(500).rotationBy(360f).translationY(initialTextViewTranslationY)
+                    textView_progress.animate().setDuration(800).rotationBy(360f).translationY(initialTextViewTranslationY)
 
             }
 
